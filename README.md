@@ -23,13 +23,19 @@ See GhibliFilterTool in action:
 |![image](https://github.com/user-attachments/assets/df568d20-8825-422d-b6e6-f37463f06b12) | ![image](https://github.com/user-attachments/assets/ed095a7c-195a-41e7-a641-138f5e219645)
 
 
+
 ## 🚀 Getting Started
 
-## Link to Datasets = 
+## Drive Link to Datasets 
 
 -https://drive.google.com/drive/folders/1mxNdEK88t2OSdE5b30eMws4e7HoXRsGr?usp=sharing
 
 -https://drive.google.com/drive/folders/1VI_N3IorCHcrtf_QwmYVdlI1LT3kCa4X?usp=sharing
+
+## Drive Link to already fine tuned model for the above datasets: 
+
+-https://drive.google.com/file/d/13wbRL1hFrjUREBR2J-qW-HUWvecEDdzY/view?usp=sharing
+
 
 ### Running in Google Colab
 
@@ -46,13 +52,13 @@ Run GhibliFilterTool in Google Colab with a GPU (A100 recommended, but T4/V100 w
    !git clone https://github.com/[YourUsername]/GhibliFilterTool.git
    %cd GhibliFilterTool
    
-** Install Dependencies**: !pip install torch torchvision diffusers peft python-dotenv pillow
+**Install Dependencies**: !pip install torch torchvision diffusers peft python-dotenv pillow
 
-** Upload Datasets**: Upload ghibli_dataset (1022 Ghibli images) and regularization_dataset (1000 + generic photos) via Colab’s file uploader or a cloud drive link. (i've included the folders containing the images as required) 
+**Upload Datasets**: Upload ghibli_dataset (1022 Ghibli images) and regularization_dataset (1000 + generic photos) via Colab’s file uploader or a cloud drive link. (i've included the folders containing the images as required) 
 
-** Run the Code **: Copy the notebook cells from GhibliFilterTool.ipynb (or use snippets below) and execute them step-by-step.
+**Run the Code**: Copy the notebook cells from GhibliFilterTool.ipynb (or use snippets below) and execute them step-by-step.
 
-** Generate Art **: Upload an image in the final cell to see the Ghibli transformation!
+**Generate Art**: Upload an image in the final cell to see the Ghibli transformation!
 
 ## 🤝 Contributing
 
@@ -60,22 +66,23 @@ I’m open to collaboration and excited to see where the community takes this! H
 
 ## Fork & Enhance
 
-**Fork the repo, tweak the model (e.g., more epochs, LoRA settings), and submit a pull request.
+**Fork the repo, tweak the model (e.g., more epochs, LoRA settings), and submit a pull request.**
 
 ## Improve the Model
 
-** Experiment with dataset size, hyperparameters, or inference options to perfect the Ghibli style. **
+**Experiment with dataset size, hyperparameters, or inference options to perfect the Ghibli style.**
 
 ## Share Ideas
 
-**Open an issue for feature suggestions, bug reports, or discussions.
-** I trained this on an A100 GPU in Colab Pro, but you’re welcome to adapt it to other setups. Let’s make this a collaborative masterpiece—cheers to open-source AI! 🌍 **
+-Open an issue for feature suggestions, bug reports, or discussions.
+
+**I trained this on an A100 GPU in Colab Pro, but you’re welcome to adapt it to other setups. Let’s make this a collaborative masterpiece—cheers to open-source AI! 🌍**
 
 ## 📖 Technical Details Overview:
 
 ## Current Model
 
-** GhibliFilterTool fine-tunes Stable Diffusion v1.5 with LoRA to apply Studio Ghibli’s aesthetic. It uses 1022 Ghibli images for style and 250 regularization images for balance. **
+**GhibliFilterTool fine-tunes Stable Diffusion v1.5 with LoRA to apply Studio Ghibli’s aesthetic. It uses 1022 Ghibli images for style and 250 regularization images for balance.**
 
 ## Training Setup:
 
@@ -101,18 +108,18 @@ Performance: Instance loss ~0.14 (target <0.10). Output is decent but needs stro
 
 ## Improvement Ideas:
 
-**Boost LoRA: Try r=64, lora_alpha=128 on high-VRAM GPUs.
-**More Epochs: Extend to 20–25 with patience=10.
-**Dataset: Add more Ghibli images (2000+) or curate for quality.
-**Tuning: Test lr=1e-4, instance_weight=3.0, or larger effective batch sizes.
-**Inference: Experiment with strength=0.8–1.0, guidance_scale=9.0–10.0.
+-Boost LoRA: Try r=64, lora_alpha=128 on high-VRAM GPUs.
+-More Epochs: Extend to 20–25 with patience=10.
+-Dataset: Add more Ghibli images (2000+) or curate for quality.
+-Tuning: Test lr=1e-4, instance_weight=3.0, or larger effective batch sizes.
+-Inference: Experiment with strength=0.8–1.0, guidance_scale=9.0–10.0.
 
 ## 📜 License
 
-**MIT License—use, modify, and share freely!
+**MIT License—use, modify, and share freely!**
 
 ## 🙌 Acknowledgements
-**AI Community: For tools and inspiration.
-**Hugging Face: For Stable Diffusion and diffusers.
-**Studio Ghibli: For the art that sparked this journey and my personal interest in Anime!
-**Let’s collaborate and bring more Ghibli magic to life! ✨
+**AI Community**: For tools and inspiration.
+**Hugging Face**: For Stable Diffusion and diffusers.
+**Studio Ghibli**: For the art that sparked this journey and my personal interest in Anime!
+**Let’s collaborate and bring more Ghibli magic to life! ✨**
