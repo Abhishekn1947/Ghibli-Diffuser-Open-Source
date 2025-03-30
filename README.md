@@ -1,11 +1,6 @@
 # GhibliFilterTool
 
-![GhibliFilterTool Banner](https://via.placeholder.com/1200x300.png?text=GhibliFilterTool+-+Transform+Your+Images+into+Studio+Ghibli+Art)  
-*Transform your photos into Studio Ghibli-style artwork with AI!*
-
 Welcome to **GhibliFilterTool**, an open-source project that harnesses Stable Diffusion and LoRA to bring the whimsical, hand-painted charm of Studio Ghibli to your images. Trained on an NVIDIA A100 GPU in Google Colab Pro, this tool is ready for you to explore, enhance, and collaborate on. I’m open-sourcing this to the GitHub community—fork it, improve it, and let’s take it further together. Cheers to the AI open-source community! 🎉
-
----
 
 ## 🌟 Features
 
@@ -22,7 +17,9 @@ See GhibliFilterTool in action:
 
 | Before | After |
 |--------|-------|
-| ![Before Image](https://via.placeholder.com/300x300.png?text=Before+Image) | ![After Image](https://via.placeholder.com/300x300.png?text=After+Image+Ghibli+Style) |
+| ![Before Image](![before1](https://github.com/user-attachments/assets/5a14c4d2-7ce0-477d-94f9-be8e55253a48)
+) | ![After Image](![after1](https://github.com/user-attachments/assets/99a5c7c0-f6c1-4f1d-ba11-ace3a6e55e8c)
+) |
 
 *Replace these placeholders with your before-and-after screenshots!*
 
