@@ -1,4 +1,4 @@
-#Run this in google collab for optimum spec, or if you h
+#Run this in google collab for optimum spec
 
 # Cell 1: Install Dependencies
 !pip install torch torchvision diffusers peft python-dotenv pillow
