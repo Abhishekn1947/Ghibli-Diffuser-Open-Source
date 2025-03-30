@@ -2,14 +2,15 @@
 
 Welcome to **GhibliFilterTool**, an open-source project that harnesses Stable Diffusion and LoRA to bring the whimsical, hand-painted charm of Studio Ghibli to your images. Trained on an NVIDIA A100 GPU in Google Colab Pro, this tool is ready for you to explore, enhance, and collaborate on. I’m open-sourcing this to the GitHub community—fork it, improve it, and let’s take it further together. Cheers to the AI open-source community! 🎉
 
+- I urge the open-source AI community to enhance and refine this model, ensuring AI remains accessible to everyone. To achieve this, we need greater GPU power, increased computing capacity, and more extensive training data.
+
+
 ## 🌟 Features
 
 - **Ghibli Magic**: Turn any photo into a vibrant, pastel-colored masterpiece with lush backgrounds and whimsical details.
 - **Flexible**: Tweak strength, guidance scale, and prompts for custom results.
 - **Community-Driven**: Open for collaboration and improvement.
 - **Colab-Friendly**: Easy to run in Google Colab with GPU support.
-
-- I urge the open-source AI community to enhance and refine this model, ensuring AI remains accessible to everyone. To achieve this, we need greater GPU power, increased computing capacity, and more extensive training data.
 
 ## 🎨 Examples
 
