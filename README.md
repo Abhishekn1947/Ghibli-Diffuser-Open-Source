@@ -25,6 +25,12 @@ See GhibliFilterTool in action:
 
 ## 🚀 Getting Started
 
+## Link to Datasets = 
+
+-https://drive.google.com/drive/folders/1mxNdEK88t2OSdE5b30eMws4e7HoXRsGr?usp=sharing
+
+-https://drive.google.com/drive/folders/1VI_N3IorCHcrtf_QwmYVdlI1LT3kCa4X?usp=sharing
+
 ### Running in Google Colab
 
 Run GhibliFilterTool in Google Colab with a GPU (A100 recommended, but T4/V100 work too). Here’s how:
