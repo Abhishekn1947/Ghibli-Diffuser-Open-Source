@@ -17,7 +17,7 @@ See GhibliFilterTool in action:
 
 | Before | After |
 |--------|-------|
-|(![before1](https://github.com/user-attachments/assets/5a14c4d2-7ce0-477d-94f9-be8e55253a48)) | (![after1](https://github.com/user-attachments/assets/99a5c7c0-f6c1-4f1d-ba11-ace3a6e55e8c)) |
+|![before1](https://github.com/user-attachments/assets/5a14c4d2-7ce0-477d-94f9-be8e55253a48) | ![after1](https://github.com/user-attachments/assets/99a5c7c0-f6c1-4f1d-ba11-ace3a6e55e8c) |
 
 *Replace these placeholders with your before-and-after screenshots!*
 
