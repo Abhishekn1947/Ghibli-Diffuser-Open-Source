@@ -37,20 +37,19 @@ See GhibliFilterTool in action:
 -https://drive.google.com/file/d/13wbRL1hFrjUREBR2J-qW-HUWvecEDdzY/view?usp=sharing
 
 
-### Running in Google Colab
+### Running in Google Colab with A100 GPU
 
 Run GhibliFilterTool in Google Colab with a GPU (A100 recommended, but T4/V100 work too). Here’s how:
 
-1. Open Colab**:
-   - Head to [Google Colab](https://colab.research.google.com/) and start a new notebook.
-
-2. Set GPU Runtime**:
-   - Go to `Runtime` > `Change runtime type` > Select `GPU` > Save.
-
-3. Clone the Repo**:
+1. Open Colab:
    
-   !git clone https://github.com/[YourUsername]/GhibliFilterTool.git
-   %cd GhibliFilterTool
+- Head to [Google Colab](https://colab.research.google.com/) and start a new notebook.
+
+3. Set GPU Runtime:
+
+- Go to `Runtime` > `Change runtime type` > Select `GPU A100` > Save.
+
+4. Clone the Repo: git clone https://github.com/[YourUsername]/GhibliFilterTool.git
    
 **Install Dependencies**: !pip install torch torchvision diffusers peft python-dotenv pillow
 
