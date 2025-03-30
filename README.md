@@ -39,15 +39,15 @@ Run GhibliFilterTool in Google Colab with a GPU (A100 recommended, but T4/V100 w
    !git clone https://github.com/[YourUsername]/GhibliFilterTool.git
    %cd GhibliFilterTool
    
-**Install Dependencies: !pip install torch torchvision diffusers peft python-dotenv pillow
+** Install Dependencies: !pip install torch torchvision diffusers peft python-dotenv pillow
 
-**Upload Datasets: Upload ghibli_dataset (1022 Ghibli images) and regularization_dataset (1000 + generic photos) via Colab’s file uploader or a cloud drive link. (i've included the folders containing the images as required) 
+** Upload Datasets: Upload ghibli_dataset (1022 Ghibli images) and regularization_dataset (1000 + generic photos) via Colab’s file uploader or a cloud drive link. (i've included the folders containing the images as required) 
 
-**Run the Code: Copy the notebook cells from GhibliFilterTool.ipynb (or use snippets below) and execute them step-by-step.
+** Run the Code: Copy the notebook cells from GhibliFilterTool.ipynb (or use snippets below) and execute them step-by-step.
 
-**Generate Art: Upload an image in the final cell to see the Ghibli transformation!
+** Generate Art: Upload an image in the final cell to see the Ghibli transformation!
 
-##🤝 Contributing
+## 🤝 Contributing
 
 I’m open to collaboration and excited to see where the community takes this! Here’s how you can jump in:
 
