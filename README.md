@@ -9,7 +9,7 @@ Welcome to **GhibliFilterTool**, an open-source project that harnesses Stable Di
 - **Community-Driven**: Open for collaboration and improvement.
 - **Colab-Friendly**: Easy to run in Google Colab with GPU support.
 
-- **I urge the open-source AI community to enhance and refine this model, ensuring AI remains accessible to everyone. To achieve this, we need greater GPU power, increased computing capacity, and more extensive training data.
+- I urge the open-source AI community to enhance and refine this model, ensuring AI remains accessible to everyone. To achieve this, we need greater GPU power, increased computing capacity, and more extensive training data.
 
 ## 🎨 Examples
 
