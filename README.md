@@ -22,6 +22,9 @@ See GhibliFilterTool in action:
 |![before2](https://github.com/user-attachments/assets/90f301d0-96ed-4250-836b-73b371d5697d) | ![after2](https://github.com/user-attachments/assets/1a8e9208-12f3-417d-b71a-8d613b01728c) |
 |![image](https://github.com/user-attachments/assets/df568d20-8825-422d-b6e6-f37463f06b12) | ![image](https://github.com/user-attachments/assets/ed095a7c-195a-41e7-a641-138f5e219645)
 
+## Architecture
+
+![diagram (1)](https://github.com/user-attachments/assets/0080e4e1-bceb-47ff-86f3-e7cbaaaddc2f)
 
 
 ## 🚀 Getting Started
